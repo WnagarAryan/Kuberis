@@ -13,8 +13,7 @@
 [![Render](https://img.shields.io/badge/Deployed%20on-Render-46E3B7?style=flat-square&logo=render&logoColor=white)](https://render.com/)
 [![License](https://img.shields.io/badge/License-MIT-4A5568?style=flat-square)](#license)
 
-[**Live Demo <img width="48" height="48" alt="icons8-live-48" src="https://github.com/user-attachments/assets/36540c1f-7969-4299-90cc-42df23f49c80" />
-**](https://kuberis-ai-business-intelligence-agent.onrender.com) · [**Report a Bug**](#) · [**Request a Feature**](#)
+[**Live Demo**](https://kuberis-ai-business-intelligence-agent.onrender.com) · [**Report a Bug**](#) · [**Request a Feature**](#)
 
 </div>
 
