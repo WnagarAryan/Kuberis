@@ -2,7 +2,6 @@
 <img width="2179" height="819" alt="architecture" src="https://github.com/user-attachments/assets/a12d6a1f-13a1-460d-9304-5f6f1508c223" />
 
 
-[README.md](https://github.com/user-attachments/files/30284609/README.md)
 <div align="center">
 
 <img src="assets/banner.png" alt="Kuberis — AI Business Intelligence" width="100%">
