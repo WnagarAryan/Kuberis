@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <img src="assets/banner.png" alt="Kuberis — AI Business Intelligence" width="100%">
@@ -12,7 +13,7 @@
 [![Render](https://img.shields.io/badge/Deployed%20on-Render-46E3B7?style=flat-square&logo=render&logoColor=white)](https://render.com/)
 [![License](https://img.shields.io/badge/License-MIT-4A5568?style=flat-square)](#license)
 
-[**(https://kuberis-ai-business-intelligence-agent.onrender.com)**](#) · [**Report a Bug**](#) · [**Request a Feature**](#)
+[**Live Demo**](#) · [**Report a Bug**](#) · [**Request a Feature**](#)
 
 </div>
 
