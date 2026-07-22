@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kuberis — AI Business Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
 
+<div class="ledger-lines" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-mark">§</span>
+      <span class="brand-name">Kuberis</span>
+    </div>
+    <div class="topbar-sub">AI Business Intelligence</div>
+  </div>
+</header>
+
+<main class="shell">
+
+  <!-- ============ UPLOAD STAGE ============ -->
+  <section id="stage-upload" class="stage stage-upload">
+    <div class="upload-hero">
+      <p class="eyebrow">01 — New entry</p>
+      <h1>Open the books.</h1>
+      <p class="lede">Drop in a spreadsheet. Kuberis reads it, tallies the numbers that matter, and sits ready to answer whatever you ask about it — in plain English.</p>
+    </div>
+
+    <div class="upload-panel">
+      <label id="dropzone" class="dropzone" for="file-input">
+        <div class="dropzone-icon">⌘</div>
+        <div class="dropzone-text">
+          <strong>Drop a CSV or Excel file</strong>
+          <span>or click to browse</span>
+        </div>
+        <input id="file-input" type="file" accept=".csv,.xlsx,.xls" hidden>
+      </label>
+
+      <div class="upload-divider"><span>or</span></div>
+
+      <button id="btn-sample" class="btn-ghost">Use the sample dataset →</button>
+    </div>
+
+    <div id="upload-status" class="upload-status" hidden></div>
+  </section>
+
+  <!-- ============ DASHBOARD STAGE ============ -->
+  <section id="stage-dashboard" class="stage stage-dashboard" hidden>
+
+    <div class="dash-header">
+      <div>
+        <p class="eyebrow" id="dataset-type-label">02 — Dataset read</p>
+        <h2 id="dataset-name">Dataset</h2>
+      </div>
+      <button id="btn-reset" class="btn-text">Start over</button>
+    </div>
+
+    <div class="dash-grid">
+
+      <!-- Metrics -->
+      <div class="panel panel-metrics">
+        <h3 class="panel-title">Headline figures</h3>
+        <div id="metrics-grid" class="metrics-grid"></div>
+      </div>
+
+      <!-- Summary -->
+      <div class="panel panel-summary">
+        <h3 class="panel-title">What this dataset holds</h3>
+        <p id="dataset-summary" class="summary-text"></p>
+        <div id="quality-notes" class="quality-notes"></div>
+      </div>
+
+      <!-- Preview -->
+      <div class="panel panel-preview">
+        <h3 class="panel-title">First rows</h3>
+        <div class="table-wrap">
+          <table id="preview-table"></table>
+        </div>
+        <p id="stats-line" class="stats-line"></p>
+      </div>
+
+      <!-- Ask -->
+      <div class="panel panel-ask">
+        <h3 class="panel-title">Ask Kuberis</h3>
+        <div id="suggestions" class="suggestions"></div>
+
+        <form id="ask-form" class="ask-form">
+          <input id="question-input" type="text" placeholder="e.g. which region had the highest sales?" autocomplete="off">
+          <button type="submit" id="ask-submit">Ask</button>
+        </form>
+
+        <div id="chat-log" class="chat-log"></div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>Kuberis reads what you give it. Figures are calculated directly from your data.</span>
+</footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
