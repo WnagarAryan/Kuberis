@@ -1,11 +1,11 @@
 <img width="2379" height="619" alt="banner (1)" src="https://github.com/user-attachments/assets/443455d8-ce84-462b-a5ab-b83c4e53bd1d" />
-[README.md](https://github.com/user-attachments/files/30284347/README.md)
+
 
 <div align="center">
 
 <img src="assets/banner.png" alt="Kuberis — AI Business Intelligence" width="100%">
 
-### Upload a dataset. Get instant metrics. Ask business questions in plain English.
+
 
 [![Python](https://img.shields.io/badge/Python-3.10+-1F3D5C?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
